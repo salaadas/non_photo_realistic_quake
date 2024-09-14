@@ -1,0 +1,175 @@
+﻿Build started 1/4/2016 8:45:45 PM.
+     1>Project "E:\NPRQuake\NPRQuakeSrc\WinQuake.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         mycoolbuild
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         math.s
+          Assembling: .\release_gl\math.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         mycoolbuild
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         snd_mixa.s
+          Assembling: .\release_gl\snd_mixa.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         mycoolbuild
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         sys_wina.s
+          Assembling: .\release_gl\sys_wina.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         mycoolbuild
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         worlda.s
+          Assembling: .\release_gl\worlda.asm
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\dxsdk\sdk\inc /Zi /nologo /W1 /WX- /Od /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D GLQUAKE /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\release_gl\\" /Fd".\release_gl\vc120.pdb" /FR".\release_gl\\" /Gd /TC /analyze- /errorReport:prompt cd_win.c chase.c cl_demo.c cl_input.c cl_main.c cl_parse.c cl_tent.c cmd.c common.c conproc.c console.c crc.c cvar.c gl_draw.c gl_mesh.c gl_model.c gl_refrag.c gl_rlight.c gl_rmain.c gl_rmisc.c gl_rsurf.c gl_screen.c gl_test.c gl_vidnt.c gl_warp.c host.c host_cmd.c in_win.c keys.c mathlib.c menu.c net_dgrm.c net_loop.c net_main.c net_vcr.c net_win.c net_wins.c net_wipx.c pr_cmds.c pr_edict.c pr_exec.c r_part.c sbar.c snd_dma.c snd_mem.c snd_mix.c snd_win.c sv_main.c sv_move.c sv_phys.c sv_user.c sys_win.c view.c wad.c world.c zone.c
+         cd_win.c
+         chase.c
+         cl_demo.c
+         cl_input.c
+         cl_main.c
+         cl_parse.c
+         cl_tent.c
+         cmd.c
+         common.c
+         conproc.c
+         console.c
+         crc.c
+         cvar.c
+         gl_draw.c
+         gl_mesh.c
+         gl_model.c
+         gl_refrag.c
+         gl_rlight.c
+         gl_rmain.c
+         gl_rmisc.c
+         Generating Code...
+         Compiling...
+         gl_rsurf.c
+     1>gl_rsurf.c(37): warning C4005: 'BLOCK_WIDTH' : macro redefinition
+                 e:\nprquake\nprquakesrc\glquake.h(91) : see previous definition of 'BLOCK_WIDTH'
+     1>gl_rsurf.c(38): warning C4005: 'BLOCK_HEIGHT' : macro redefinition
+                 e:\nprquake\nprquakesrc\glquake.h(92) : see previous definition of 'BLOCK_HEIGHT'
+         gl_screen.c
+         gl_test.c
+         gl_vidnt.c
+         gl_warp.c
+         host.c
+         host_cmd.c
+         in_win.c
+         keys.c
+         mathlib.c
+         menu.c
+         net_dgrm.c
+         net_loop.c
+         net_main.c
+         net_vcr.c
+         net_win.c
+         net_wins.c
+         net_wipx.c
+         pr_cmds.c
+         pr_edict.c
+         Generating Code...
+         Compiling...
+         pr_exec.c
+         r_part.c
+         sbar.c
+         snd_dma.c
+         snd_mem.c
+         snd_mix.c
+         snd_win.c
+         sv_main.c
+         sv_move.c
+         sv_phys.c
+         sv_user.c
+         sys_win.c
+         view.c
+         wad.c
+         world.c
+         zone.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo".\release_gl\winquake.res" winquake.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(E:\NPRQuake\NPRQuakeSrc\.\release_gl\winquake.exe) does not match the Linker's OutputFile property value (E:\NPRQuake\NPRQuakeSrc\release_gl\glquake.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(winquake) does not match the Linker's OutputFile property value (glquake). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\release_gl\glquake.exe" /INCREMENTAL:NO /NOLOGO .\dxsdk\sdk\lib\dxguid.lib comctl32.lib winmm.lib wsock32.lib opengl32.lib glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\release_gl\winquake.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\release_gl\winquake.lib" /MACHINE:X86 /SAFESEH .\release_gl\\.obj
+         .\release_gl\winquake.res
+         .\release_gl\cd_win.obj
+         .\release_gl\chase.obj
+         .\release_gl\cl_demo.obj
+         .\release_gl\cl_input.obj
+         .\release_gl\cl_main.obj
+         .\release_gl\cl_parse.obj
+         .\release_gl\cl_tent.obj
+         .\release_gl\cmd.obj
+         .\release_gl\common.obj
+         .\release_gl\conproc.obj
+         .\release_gl\console.obj
+         .\release_gl\crc.obj
+         .\release_gl\cvar.obj
+         .\release_gl\gl_draw.obj
+         .\release_gl\gl_mesh.obj
+         .\release_gl\gl_model.obj
+         .\release_gl\gl_refrag.obj
+         .\release_gl\gl_rlight.obj
+         .\release_gl\gl_rmain.obj
+         .\release_gl\gl_rmisc.obj
+         .\release_gl\gl_rsurf.obj
+         .\release_gl\gl_screen.obj
+         .\release_gl\gl_test.obj
+         .\release_gl\gl_vidnt.obj
+         .\release_gl\gl_warp.obj
+         .\release_gl\host.obj
+         .\release_gl\host_cmd.obj
+         .\release_gl\in_win.obj
+         .\release_gl\keys.obj
+         .\release_gl\mathlib.obj
+         .\release_gl\menu.obj
+         .\release_gl\net_dgrm.obj
+         .\release_gl\net_loop.obj
+         .\release_gl\net_main.obj
+         .\release_gl\net_vcr.obj
+         .\release_gl\net_win.obj
+         .\release_gl\net_wins.obj
+         .\release_gl\net_wipx.obj
+         .\release_gl\pr_cmds.obj
+         .\release_gl\pr_edict.obj
+         .\release_gl\pr_exec.obj
+         .\release_gl\r_part.obj
+         .\release_gl\sbar.obj
+         .\release_gl\snd_dma.obj
+         .\release_gl\snd_mem.obj
+         .\release_gl\snd_mix.obj
+         .\release_gl\snd_win.obj
+         .\release_gl\sv_main.obj
+         .\release_gl\sv_move.obj
+         .\release_gl\sv_phys.obj
+         .\release_gl\sv_user.obj
+         .\release_gl\sys_win.obj
+         .\release_gl\view.obj
+         .\release_gl\wad.obj
+         .\release_gl\world.obj
+         .\release_gl\zone.obj
+     1>LINK : fatal error LNK1181: cannot open input file '.\release_gl\\.obj'
+     1>Done Building Project "E:\NPRQuake\NPRQuakeSrc\WinQuake.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:34.01
